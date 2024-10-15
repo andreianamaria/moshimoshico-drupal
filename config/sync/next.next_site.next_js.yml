@@ -1,0 +1,11 @@
+uuid: 0c218f14-f382-4f77-9219-b7c43c4324a9
+langcode: en
+status: true
+dependencies: {  }
+id: next_js
+label: Next.js
+base_url: 'http://localhost:3000'
+preview_url: 'http://localhost:3000/api/draft'
+preview_secret: previewsecret
+revalidate_url: 'http://localhost:3000/api/revalidate'
+revalidate_secret: revalidatesecret
