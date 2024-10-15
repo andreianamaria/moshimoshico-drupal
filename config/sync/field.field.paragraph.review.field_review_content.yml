@@ -1,0 +1,19 @@
+uuid: 0e01b160-4216-4469-8334-feff0bb63b1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_review_content
+    - paragraphs.paragraphs_type.review
+id: paragraph.review.field_review_content
+field_name: field_review_content
+entity_type: paragraph
+bundle: review
+label: 'Review content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

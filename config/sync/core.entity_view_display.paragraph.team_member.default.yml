@@ -1,0 +1,52 @@
+uuid: f56f5ef8-570a-44a4-bdce-aef7bb0c4a09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.team_member.field_job_title
+    - field.field.paragraph.team_member.field_member_image
+    - field.field.paragraph.team_member.field_member_name
+    - field.field.paragraph.team_member.field_social_media
+    - paragraphs.paragraphs_type.team_member
+  module:
+    - social_media_links_field
+id: paragraph.team_member.default
+targetEntityType: paragraph
+bundle: team_member
+mode: default
+content:
+  field_job_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_member_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_member_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_social_media:
+    type: social_media_links_field_default
+    label: hidden
+    settings:
+      appearance: {  }
+      link_attributes: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

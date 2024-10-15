@@ -1,0 +1,13 @@
+diff --git a/src/Plugin/Field/FieldType/Oauth2ScopeReferenceItem.php b/src/Plugin/Field/FieldType/Oauth2ScopeReferenceItem.php
+index 0d884cf..1206223 100644
+--- a/src/Plugin/Field/FieldType/Oauth2ScopeReferenceItem.php
++++ b/src/Plugin/Field/FieldType/Oauth2ScopeReferenceItem.php
+@@ -16,7 +16,7 @@ use Drupal\simple_oauth\Oauth2ScopeInterface;
+  *   id = "oauth2_scope_reference",
+  *   label = @Translation("OAuth2 scope reference"),
+  *   description = @Translation("An entity field containing a oauth2_scope reference."),
+- *   category = @Translation("Reference"),
++ *   category = "reference",
+  *   default_widget = "oauth2_scope_reference",
+  *   list_class = "\Drupal\simple_oauth\Plugin\Field\FieldType\Oauth2ScopeReferenceItemList",
+  * )

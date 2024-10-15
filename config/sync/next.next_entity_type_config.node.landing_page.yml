@@ -1,13 +1,12 @@
-uuid: 8bf04cc8-cffa-4dc1-b6fd-ed13fb64ea2f
+uuid: e48a0ff9-046e-420e-a625-f7c4b36117ef
 langcode: en
 status: true
 dependencies: {  }
-id: node.article
+id: node.landing_page
 site_resolver: site_selector
 configuration:
   sites:
     next_js: next_js
-  field_name: {  }
 revalidator: path
 revalidator_configuration:
   revalidate_page: true

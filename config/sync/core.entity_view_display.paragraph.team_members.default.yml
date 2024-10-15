@@ -1,0 +1,24 @@
+uuid: 21f11749-478f-4f6b-a02f-8a233de52374
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.team_members.field_members
+    - paragraphs.paragraphs_type.team_members
+  module:
+    - entity_reference_revisions
+id: paragraph.team_members.default
+targetEntityType: paragraph
+bundle: team_members
+mode: default
+content:
+  field_members:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

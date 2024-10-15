@@ -27,8 +27,10 @@
         "drupal/gin_toolbar": "^1.0@rc",
         "drupal/jsonapi_extras": "^3.26",
         "drupal/next": "^2.0@beta",
+        "drupal/paragraphs": "^1.18",
         "drupal/pathauto": "^1.13",
         "drupal/simple_oauth": "^6.0@beta",
+        "drupal/social_media_links": "^2.10",
         "drush/drush": "^13.3"
     },
     "conflict": {
@@ -93,6 +95,9 @@
             },
             "drupal/decoupled_router": {
                 "Unable to resolve path on node in other language than default": "https://www.drupal.org/files/issues/2024-08-05/decouple_router-3111456-resolve-language-issue-63--get-translation-re-rolled-and-good-redirect.patch"
+            },
+            "drupal/simple_oauth": {
+                "Reference field error": "./patches/modules/simple_oauth/reference_field.patch"
             }
         },
         "drupal-core-project-message": {
